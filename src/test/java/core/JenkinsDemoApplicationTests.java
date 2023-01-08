@@ -14,6 +14,7 @@ class JenkinsDemoApplicationTests {
 	@Test
 	void contextLoads() {
 		LOGGER.info("Execute test ...");
+		LOGGER.info("Execute test one more time...");
 		Assertions.assertEquals(true, true);
 	}
 
